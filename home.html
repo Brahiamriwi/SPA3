@@ -1,0 +1,58 @@
+<header class="bg-light py-3 border-bottom">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="/" data-path="/" class="nav-link-spa">CrudNote</a>
+        <div>
+            <span id="welcomeMessage" class="me-3 text-dark"></span>
+            <button id="themeToggleBtn" class="btn btn-outline-secondary me-2"><i class="fas fa-sun"></i></button>
+            <a href="#" id="signOutBtn" class="btn btn-outline-danger">Sign Out</a>
+        </div>
+    </div>
+</header>
+<main class="container my-5">
+    <h1 class="mb-4 text-dark">Hello, <span id="userName"></span></h1>
+    <div class="d-flex mb-3">
+        <button class="btn btn-primary me-2 active">All</button>
+        <button class="btn btn-outline-primary me-2">Personal</button>
+        <button class="btn btn-outline-primary">Shared</button>
+    </div>
+    <h2 class="text-dark">My Notes</h2>
+    <div id="personalNotesContainer" class="row">
+        <div class="col-12">
+            <p class="text-muted">No tienes notas personales aún. ¡Crea una!</p>
+        </div>
+    </div>
+    <h2 class="mt-5 text-dark">Notes Shared With Me</h2>
+    <div id="sharedNotesContainer" class="row">
+        <div class="col-12">
+            <p class="text-muted">No hay notas compartidas contigo.</p>
+        </div>
+    </div>
+    
+    <button id="newNoteBtn" class="btn btn-primary rounded-circle floating-btn">
+        <i class="fas fa-plus"></i> New Note
+    </button>
+</main>
+<footer class="bg-light text-center py-3 border-top mt-5">
+    <div class="container">
+        <p>&copy; 2024 CrudNote. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<style>
+    /* Estilo para el botón flotante */
+    .floating-btn {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        z-index: 1000;
+        /* Asegurarse que el color del icono sea visible en el botón */
+        color: white !important; /* Añadido para asegurar que el icono sea blanco */
+    }
+</style>

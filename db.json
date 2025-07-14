@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "79fd",
+      "fullName": "brahiam ruiz alzate",
+      "email": "brahiamruizalzate@gmail.com",
+      "username": "brahiamriwi",
+      "password": "daniel2404",
+      "registrationDate": "2025-07-09T19:53:27.855Z"
+    },
+    {
+      "id": "cd3a",
+      "fullName": "daniel ruiz restrepo",
+      "email": "daniel@gmail.com",
+      "username": "dani",
+      "password": "dani1004",
+      "registrationDate": "2025-07-09T20:19:46.072Z"
+    },
+    {
+      "id": "45fc",
+      "fullName": "saxsaca",
+      "email": "saxasxg@mail.com",
+      "username": "sxSASX",
+      "password": "SXSXSX",
+      "registrationDate": "2025-07-09T20:27:53.728Z"
+    },
+    {
+      "id": "ff0e",
+      "fullName": "axasas",
+      "email": "asdasxa@gmail.com",
+      "username": "ascas",
+      "password": "dcscdas",
+      "registrationDate": "2025-07-10T01:39:34.434Z"
+    },
+    {
+      "id": "9b09",
+      "email": "brahiam@gmail.com",
+      "username": "brahiam",
+      "password": "1234",
+      "createdAt": "2025-07-10"
+    }
+  ],
+  "notes": [
+    {
+      "id": "c47e",
+      "title": "cdssz",
+      "content": "dsdzsdv",
+      "ownerId": "9b09"
+    }
+  ],
+  "sharedNotes": []
+}
